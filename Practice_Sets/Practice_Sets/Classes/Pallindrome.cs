@@ -21,7 +21,7 @@
             if (flag)
                 Console.WriteLine($"{input} is pallindrome");
             else
-                Console.WriteLine($"{input} is not pallindrome");
+                Console.WriteLine($"{input} is not pallindrome"); 
         }
     }
 }
