@@ -16,7 +16,7 @@ namespace Practice_Sets.Classes
                 sb.Append(charArray[i]);
             }
 
-            Console.WriteLine($"output = {sb.ToString()}");
+            Console.WriteLine($" output  = {sb.ToString()}");
             return sb.ToString();
         }
     }
