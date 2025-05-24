@@ -16,16 +16,17 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Setup .NET
+
+    - name: Setup .NET testing
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
 
-    - name: Restore dependencies
+    - name: Restore dependencies for solution
       working-directory: Practice_Sets
       run: dotnet restore
 
-    - name: Build
+    - name: Build solution
       working-directory: Practice_Sets
       run: dotnet build Practice_Sets.sln --no-restore
       
